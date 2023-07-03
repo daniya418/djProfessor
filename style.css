@@ -416,12 +416,10 @@ body {
 
 .youtube-video {
     position: relative;
-    width: 100%;
+    width: 600px;
     height: 400px;
     /* padding-bottom: 56.25%; */
     overflow: hidden;
-   
-    
 }
 
 .youtube-video iframe {
@@ -478,7 +476,10 @@ body {
         font-size: small;
     }
 
-
+    .youtube-video {
+        height: 250px;
+        width: 100%;
+    }
 
  
 }
