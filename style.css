@@ -21,6 +21,7 @@ html,
 body {
     height: 100%;
     width: 100%;
+  
 }
 
 
@@ -397,6 +398,8 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+  
+
   }
 
 
@@ -449,6 +452,17 @@ body {
     .tab .tab-row{
         flex-direction: column;
     }
+    
+    .intro{
+ 
+        background: linear-gradient(60deg,white 50%,rgb(207, 207, 206) 50%);
+
+    }
+
+    .packageIntro{
+        background: linear-gradient(-120deg,white 70%,rgb(200, 200, 200) 50%);
+    }
+
     
     .packageIntro, .intro{
         flex-direction: column;
