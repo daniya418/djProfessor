@@ -504,6 +504,18 @@ body {
     
 }
 
+.doubleImage{
+    display: flex;
+    width: 100%;
+}
+
+.image2 img{
+    width: 50vw;
+    height: 50vh;
+    object-fit: cover;
+    
+}
+
 @media screen and (max-width:1050px) {
     section{
         margin: 0 0px;
