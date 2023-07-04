@@ -453,15 +453,20 @@ body {
     font-weight: 600;
     text-transform: capitalize;
     line-height: 1.2;
+    color: white;
 }
 .testimonials{
     padding: 100px 0;
+    background: linear-gradient(140deg,rgb(0, 0, 0) 60%,rgb(255, 56, 56) 50%);
+
 }
 
 .testimonials-item{
-    background-color: #ebdbdb;
+    background-color: #ffffff;
     padding: 30px;
     border-radius: 2px;
+    font-family: 'Poppins', sans-serif;
+
 }
 .tInfo{
     text-align: center;
