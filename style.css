@@ -415,6 +415,12 @@ body {
     font-size: 20px;
 }
 
+.description h2{
+    text-align: center;
+    color: #dedede;
+    
+}
+
 .button{
     text-align: center;
     padding: 10px;
@@ -518,6 +524,29 @@ body {
 
 .accordion{
     padding: 20px;
+}
+
+.careers{
+    font-family: 'Poppins', sans-serif;
+    padding: 30px;
+}
+
+.careers h2{
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.careers p{
+    text-align: center;
+    margin: 2px;
+}
+
+.careers h3{
+    font-size: medium;
+    text-align: center;
+    margin-top: 10px;
+    padding: 8px;
 }
 
 @media screen and (max-width:1050px) {
@@ -666,6 +695,13 @@ body {
 
 .packageIntro, .intro{
     padding: 20px;
+}
+
+.hero>h3{
+    /* top: 55%; */
+    left: 5%;
+    bottom: 10px;
+    font-size: 18px;
 }
 
 }
