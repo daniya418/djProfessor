@@ -65,5 +65,26 @@ window.addEventListener('scroll', function() {
 });
 
 
+// Function to change the background color when scrolling
+function changeBackgroundColorOnScroll() {
+  const body = document.body;
+  const scrollHeight = body.scrollHeight;
+  const windowHeight = window.innerHeight;
+
+  // Calculate the percentage scrolled
+  const scrollPercentage = (window.scrollY / (scrollHeight - windowHeight)) * 100;
+
+  // Change background color based on the scroll percentage
+  if (scrollPercentage < 50) {
+    body.style.backgroundColor = "#f0f0f0"; // Initial color
+  } else if (scrollPercentage >= 50 && scrollPercentage < 75) {
+    body.style.backgroundColor = "#ffcc66"; // New color when scrolled more than 50% but less than 75%
+  } else {
+    body.style.backgroundColor = "#ffffe0"; // New color when scrolled more than 75%
+  }
+}
+
+// Attach the event listener to the scroll event
+window.addEventListener("scroll", changeBackgroundColorOnScroll);
 
 
