@@ -514,13 +514,14 @@ body {
 .intro{
  
     /* background: linear-gradient(10deg,rgb(0, 0, 0) 60%,rgb(255, 56, 56) 50%); */
-    background: linear-gradient(10deg,rgb(0, 0, 0) 60%,rgb(201, 201, 201) 50%);
+    background: black;
 
 
 }
 
 .packageIntro{
-    background: linear-gradient(-170deg,rgb(0, 0, 0) 60%,rgb(255, 56, 56) 50%);
+    background: black;
+
 }
 
 .testimonials .swiper-pagination{
@@ -558,7 +559,7 @@ body {
 
 .careers{
     font-family: 'Poppins', sans-serif;
-    padding: 30px;
+    padding:10px 30px;
 }
 
 .careers h2{
@@ -598,12 +599,13 @@ body {
     
      .intro{
  
-        background: linear-gradient(60deg,rgb(0, 0, 0) 60%,rgb(255, 56, 56) 50%);
+        background: black;
 
     }
 
     .packageIntro{
-        background: linear-gradient(-120deg,rgb(0, 0, 0) 60%,rgb(255, 56, 56) 50%);
+        background: black;
+
     } 
 
     
