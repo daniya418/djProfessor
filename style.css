@@ -398,13 +398,13 @@ body {
 
   .revealRight{
     position: absolute;
-    transform: translateX(50px);
+    transform: translateX(20px);
     opacity: 0;
     transition: all 2s ease;
   }
   .revealLeft{
     position: absolute;
-    transform: translateX(-50px);
+    transform: translateX(-20px);
     opacity: 0;
     transition: all 2s ease;
   }
