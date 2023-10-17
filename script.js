@@ -77,9 +77,9 @@ function changeBackgroundColorOnScroll() {
 
   // Change background color based on the scroll percentage
   if (scrollPercentage < 50) {
-    body.style.backgroundColor = "#f0f0f0"; // Initial color
+    body.style.backgroundColor = "#ffffff"; // Initial color
   } else if (scrollPercentage >= 50 && scrollPercentage < 75) {
-    body.style.backgroundColor = "#ffcc66"; // New color when scrolled more than 50% but less than 75%
+    body.style.backgroundColor = "#ffffff"; // New color when scrolled more than 50% but less than 75%
   } else {
     body.style.backgroundColor = "#010101"; // New color when scrolled more than 75%
     
@@ -88,5 +88,31 @@ function changeBackgroundColorOnScroll() {
 
 // Attach the event listener to the scroll event
 window.addEventListener("scroll", changeBackgroundColorOnScroll);
+
+//Get the button
+let mybutton = document.getElementById("btn-back-to-top");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function () {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (
+    document.body.scrollTop > 20 ||
+    document.documentElement.scrollTop > 20
+  ) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+// When the user clicks on the button, scroll to the top of the document
+mybutton.addEventListener("click", backToTop);
+
+function backToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
 
 
